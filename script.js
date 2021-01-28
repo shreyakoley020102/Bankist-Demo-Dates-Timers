@@ -168,7 +168,7 @@ btnLogin.addEventListener('click', function (e) {
     // Display UI and message
     labelWelcome.textContent = `Welcome back, ${
       currentAccount.owner.split(' ')[0]
-    }`;
+    }😄`;
     containerApp.style.opacity = 100;
 
     // Clear input fields
