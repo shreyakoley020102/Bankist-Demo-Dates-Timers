@@ -264,3 +264,4 @@ console.log(new Date(account1.movementsDates[0]));
 const future = new Date(2037, 10, 19, 15, 23);
 console.log(future);
 console.log(future.getFullYear());
+console.log(future.getMonth());
