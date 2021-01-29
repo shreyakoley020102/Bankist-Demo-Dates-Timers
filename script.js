@@ -253,7 +253,14 @@ btnSort.addEventListener('click', function (e) {
 // LECTURES
 
 //Create a date
+/*
 const now = new Date();
 console.log(now);
 
 console.log(new Date(account1.movementsDates[0]));
+*/
+
+//Working with the dates
+const future = new Date(2037, 10, 19, 15, 23);
+console.log(future);
+console.log(future.getFullYear());
