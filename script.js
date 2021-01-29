@@ -162,12 +162,17 @@ const updateUI = function (acc) {
 
 const startLogOutTimer = function () {
   //Sert time to 5 minutes
-  let = 100;
+  let time = 100;
   //Call the timer every second
   setInterval(function () {
     //In each call, Print the remaining time to UI
+    labelTimer.textContent = time;
+
+    //Decrease 1s
+    time--;
+
     //When 0 seconds left, stop timer an logout user
-  });
+  }, 1000);
 };
 
 ///////////////////////////////////////
@@ -207,6 +212,8 @@ btnLogin.addEventListener('click', function (e) {
     // Clear input fields
     inputLoginUsername.value = inputLoginPin.value = '';
     inputLoginPin.blur();
+
+    startLogOutTimer();
 
     // Update UI
     updateUI(currentAccount);
