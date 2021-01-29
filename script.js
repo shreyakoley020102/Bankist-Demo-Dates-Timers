@@ -252,5 +252,8 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 // LECTURES
 
+//Create a date
 const now = new Date();
 console.log(now);
+
+console.log(new Date(account1.movementsDates[0]));
