@@ -261,6 +261,8 @@ console.log(new Date(account1.movementsDates[0]));
 */
 
 //Working with the dates
+
+/*
 const future = new Date(2037, 10, 19, 15, 23);
 console.log(future);
 console.log(future.getFullYear());
@@ -272,3 +274,4 @@ console.log(future.getMinutes());
 console.log(future.getSeconds());
 console.log(future.toISOString());
 console.log(future.getTime());
+*/
